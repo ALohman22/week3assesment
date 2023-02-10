@@ -4,11 +4,11 @@ console.log("hello world");
 
 function handleSubmit(evt) {
 	evt.preventDefault();
-	
 	alert('form submited!');
 }
 
 let compliment = evt =>{
+	evt.preventDefault();
 	alert('Good Job!')
 }
 

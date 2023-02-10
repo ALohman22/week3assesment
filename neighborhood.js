@@ -1,12 +1,12 @@
-let restaurants = document.querySelector('#restaurants')
-let icon = document.querySelector('#icon')
-let random = document.querySelector('#random')
-let arr = document.querySelector('#arr')
 
-const randomRes = evt => {
-    let randomElement = Math.floor(Math.random() * arr.length);
-    let randomLink = arr[randomRes]
-    alert(randomLink)
+
+let randomUrl = document.querySelector('#ranUrl')
+
+let arr = ['Sandwhich Queen', 'Chubys', 'Fat Jacks', 'The Polar Queen', 'Daley Freeze' ]
+
+let randomRes= () =>{
+    let random = Math.floor(Math.random()*arr.length)
+    alert(`We recomend ${arr[random]}!`)
 }
 
-random.addEventListener('click', randomRes)
+ranUrl.addEventListener('click', randomRes)

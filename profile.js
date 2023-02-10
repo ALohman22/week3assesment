@@ -1,12 +1,9 @@
-let btn = document.querySelector('#btn')
+
+
 
 let color = document.querySelector('#color')
 let place = document.querySelector('#place')
 let ritual = document.querySelector('#ritual')
-
-
-
-
 
 const favColBtn = evt =>{    
     alert('My favorite color is Green!')
